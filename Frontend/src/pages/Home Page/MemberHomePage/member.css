@@ -1,0 +1,242 @@
+.message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.message b {
+  font-size: 16px;
+}
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  margin: 0 10px;
+  }
+  button:hover{
+    background-color: whitesmoke;
+    color: black;
+  
+   
+  }
+  .message-display{
+    display: grid;
+    place-items: center; 
+    background-color: #f8d7da; 
+    color: #721c24; 
+    padding: 10px;
+  }
+  
+  .loginButton{
+    background-color: #4072a2;
+    color:white
+}
+.LoginComponent{
+    margin-top: 30px;
+    margin-bottom: -60px;
+}
+.img{
+  max-width: 100%;
+  max-height:  100%;
+  
+
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  height: 100vh;
+  color: black;
+    font-size:10px;
+    transition: font-size 0.5s ease;
+}
+.img{
+  background-color: rgba(1, 1, 1, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width:50%;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  font-family: 'Open Sans', sans-serif;
+}
+.title:hover{
+  color:gray;
+  font-size:30px;
+}
+.activities {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 10px;
+}
+
+.activities {
+  width: 100%;
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 80%;
+  display: flex;
+    flex-wrap: wrap;
+}
+.activity:hover {
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.activity{
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.activity:hover {
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 10px;
+padding: 20px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+margin: 0 10px;
+}
+.rowC {
+  display:flex; 
+  flex-direction:row;
+  padding: 5px 5px 5px 5px;
+}
+/* Add any other styles you need here */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.record-details {
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #0d0d0d;
+  border-radius: 5px;
+}
+
+.record-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  background-color: whitesmoke;
+}
+
+.service-container {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  background-color: whitesmoke;
+  width: 60%;
+  place-items: center; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.record-item {
+  width: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.btn1 {
+  background-color: #f5f8f5;
+  border: none;
+  color: rgb(13, 13, 13);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn1:hover {
+  background-color: #060606;
+  color: #fefcfc;
+  border: 2px solid #faf7f7;
+}
+
+.grid-box {
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-row {
+  display: flex;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  flex-wrap: wrap;
+}
+
+.grid-column {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-box {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,49 @@
+.loginButton{
+    background-color: #4072a2;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+.LoginComponent{
+    margin-top: 10px;
+    margin-bottom: -60px;
+}
+.LoginComponent {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .vh-100 {
+    max-width: 2000px;
+    max-height: 2000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .img-fluid {
+    display: block; /* Ensures the image is a block element */
+    max-width: 50%; /* Makes sure the image doesn't exceed its container */
+    /*height: 680px; /* Maintains aspect ratio */
+    /*width: 800px;*/
+    margin-right: auto;
+    margin: 0 auto; /* Centers the image horizontally */
+  }
+  .divider:after,
+  .divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+  }
+  .h-custom {
+    height: calc(100% - 73px);
+  }
+  @media (max-width: 900px) {
+    .img-fluid {
+      max-width: 100%; /* Set the maximum width to 100% on smaller screens */
+    }
+    .h-custom {
+    height: 100%;
+    }
+  }
